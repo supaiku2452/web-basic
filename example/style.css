@@ -1,0 +1,19 @@
+li {
+    list-style-type: disc;
+}
+
+li li {
+    list-style-type: circle;
+}
+
+li li span {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+p ~ span {
+    color: orange;
+}
